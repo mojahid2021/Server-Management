@@ -15,14 +15,14 @@ This script automates the setup of a secure PHP web hosting environment on a Deb
 
 ### 1. Edit Configuration
 
-Before running, edit these lines in `setup_web_hosting.sh`:
-
-```bash
 DOMAIN="yourdomain.com" 
 DB_USER="webuser"
 DB_PASS="StrongPassword123"
 ADMIN_IP="YOUR.IP.ADDRESS.HERE"
 
-## ✅ Features
+Before running, edit these lines in `setup_web_hosting.sh`:
+
+```bash
+
 chmod +x setup_web_hosting.sh
 sudo ./setup_web_hosting.sh
